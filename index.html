@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landbnb</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="./img/logo.png">
+        </a>
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    
+      <div id="navbarExampleTransparentExample" class="navbar-menu">    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="#">Become a host</a>          
+          </div>
+          <div class="navbar-item">
+            <a href="#">Earn Credit</a>           
+          </div>
+          <div class="navbar-item">
+            <a href="#">Help</a>            
+          </div>
+          <div class="navbar-item">
+            <a href="#">Sign Up</a>            
+          </div>
+          <div class="navbar-item">
+            <a href="#">Log in</a>            
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="content container">
+          <div class="main-form">
+            <form>
+              <h1>Book unique homes and experiences.</h1>
+              <div class="field">
+                <label class="label">WHERE</label>
+                <div class="control">
+                  <input placeholder="Anywhere" class="input" type="text">
+                </div>                
+              </div>
+              <div class="columns">
+                <div class="column is-6">
+                  <div class="field">
+                    <label class="label">CHECK IN</label>
+                    <div class="control">
+                      <input class="input" type="date">
+                    </div>                    
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="field">
+                    <label class="label">CHECK OUT</label>
+                    <div class="control">
+                      <input class="input" type="date">
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">GUESTS</label>
+                <div class="control">
+                  <div class="select is-fullwidth"">
+                    <select>
+                      <option value="1">1 guest</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6+</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <button class="button is-fullwidth"">Search</button>
+            </form>
+          </div>
+    </div>
+  </header>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <h3 class="heading">What guests are saying about homes in United States</h3>
+        <p class="sub-title"><i class="fas fa-concierge-bell"></i> United States homes were rated <b>4.8 out of 5 stars</b> with <b>25,500,000+ reviews</b></p>
+        <div class="columns reviews">
+          <div class="column">
+            <img class="room-img" src="./img/content/1.jpeg" alt="">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>My guests and I absolutely loved our stay at Leafe & Katherine's cabin and look forward to coming back to Joshua tree! Our
+            furry friends...</p>
+           <div class="user-profile">
+              <img class="is-rounded" src="./img/content/users/24.jpg">          
+            Jane
+           </div>
+          </div>
+          <div class="column">
+            <img class="room-img" src="./img/content/2.jpeg" alt="">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>It is a very beautiful apartment, I loved it (I was travelling with my boyfriend/ we are a couple from Germany). The Location
+            is great, its an up...</p>
+           <div class="user-profile">    
+              <img class="is-rounded" src="./img/content/users/40.jpg">
+            Sarah
+           </div>
+          </div>
+          <div class="column">
+            <img class="room-img" src="./img/content/3.jpeg" alt="">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>I loved staying at the lemon moon cottage! Robin was very friendly and helpful, and the cottage was adorable! The place was
+            very...</p>
+           <div class="user-profile">
+              <img src="./img/content/users/85.jpg">
+            Victoria
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section info">
+    <div class="container">
+      <div class="content">
+        <div class="columns">
+          <div class="column">
+            <div class="icon">
+              <i class="far fa-heart"></i>
+            </div>
+            <h5 class="heading">24/7 customer support</h5>
+            <p>Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour of day.</p>
+          </div>
+          <div class="column">
+            <div class="icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h5 class="heading">Global hospitality standards</h5>
+            <p>Guests review their hosts after each stay. All hosts must maintain a minimum rating and our hospitality standards to be on
+            Landbnb.</p>
+          </div>
+          <div class="column">
+            <div class="icon">
+              <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <h5 class="heading">5-star hosts</h5>
+            <p>From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section homes">
+    <div class="content">
+      <div class="container">
+        <h3 class="heading">Homes in United States</h3>
+        <div class="columns">
+          <div class="column">
+            <img src="./img/content/1.jpeg" alt="">
+            <p class="location">CAMPER/RV · MALIBU</p>
+            <p class="place-title">Malibu Dream Airstream</p>
+            <p class="price">$600per night · Free cancellation</p>
+            <p class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 223</p>
+          </div>
+          <div class="column">
+            <img src="./img/content/1.jpeg" alt="">
+            <p class="location">ENTIRE HOUSE · JOSHUA TREE</p>
+            <p class="place-title">The Joshua Tree House</p>
+            <p class="price">$285per night · Free cancellation</p>
+            <p class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 669</p>
+          </div>
+          <div class="column">
+            <img src="./img/content/1.jpeg" alt="">
+            <p class="location">DOME HOUSE · APTOS</p>
+            <p class="place-title">Mushroom Dome Cabin: #1 on airbnb in the world</p>
+            <p class="price">$130per night · Free cancellation</p>
+            <p class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 874</p>
+          </div>
+          <div class="column">
+            <img src="./img/content/1.jpeg" alt="">
+            <p class="location">ENTIRE HOUSE · CAZADERO</p>
+            <p class="place-title">Cozy A-Frame Cabin in the Redwoods</p>
+            <p class="price">$175per night · Free cancellation</p>
+            <p class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 369</p>
+          </div>
+        </div>
+        <a href="#">Show all (22,000+) ></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section call-to-action">
+    <div class="container">
+      <div class="content">
+        <h2 class="heading">When are you traveling?</h2>
+        <p class="sub-title">Add dates for updated pricing and availability.</p>
+        <button class="button">Add dates</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="content">
+        <div class="columns">
+          <div class="column">
+            <a href="#"><b>Landbnb</b></a>
+            <br>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+            <a href="#">Plicies</a>
+            <a href="#">Help</a>
+            <a href="#">Diversity & Belonging</a>
+          </div>
+          <div class="column">
+            <a href="#"><b>Descover</b></a>
+            <br>
+            <a href="#">Trust & Safety</a>
+            <a href="#">Travel Credit</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Landbnb Citizen</a>
+            <a href="#">Business Travel</a>
+            <a href="#">Guildbooks</a>
+            <a href="#">Landbnbmag</a>
+            <a href="#">Events</a>
+          </div>
+          <div class="column">
+            <a href="#"><b>Hosting</b></a>
+            <br>
+            <a href="#">Why Host</a>
+            <a href="#">Hospitality</a>
+            <a href="#">Responsible Hosting</a>
+            <a href="#">Community Center</a>
+            <a href="#">Host an Experience</a>
+            <a href="#">Open Homes</a>
+          </div>
+          <div class="column">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Site Map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <nav class="navbar container" style="margin: 40px 0;">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="./img/logo2.png">
+       &copy; Landbnb, Inc
+      </a>
+    </div>
+  </nav>
+  <script src="./js/js.js"></script>
+</body>
+
+</html>
